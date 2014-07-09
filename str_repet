@@ -1,0 +1,15 @@
+<?php
+/**
+ * @param $str строка
+ * @param $number колличество повторений
+ * @return mixed возвращает строку нужное число раз
+ */
+function my_str_repeat($str,$number){
+    for($i=0;$i<=$number;$i++){
+        echo "$str<br />";
+
+    }
+    return $str;
+
+}
+ my_str_repeat("sdsd",2);

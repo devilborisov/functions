@@ -1,0 +1,21 @@
+<?php
+$arr=array("sdsd","dfgggt","ewegg");
+/**
+ * @param $arr массив со значениями
+ * @return null|string возвращает строку
+ */
+function my_implode($arr){
+    $a=null;
+
+    for($i=0;$i<=count($arr[$i]);$i++){
+        $str[]=$arr[$i];
+
+    }
+    foreach($str as $in){
+        $a.=$in;
+
+    }
+ return $a;
+
+}
+ echo my_implode($arr);

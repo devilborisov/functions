@@ -1,0 +1,19 @@
+<?php
+/**
+ * @param $string текст строки
+ * @param $simbol символ который надо найти
+ * @return mixed возвращает символ ,если он есть
+ */
+function my_strpbrk($string,$simbol){
+    for($i=0;$string[$i];$i++){
+        if($string[$i]==$simbol){
+            $a=$string[$i];
+        }
+
+
+
+    }
+    return $a;
+
+}
+echo my_strpbrk("qwertyui","q");

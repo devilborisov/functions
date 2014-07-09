@@ -1,0 +1,15 @@
+<?php
+$str=array("sd","sd","aa","dsfds","dsfdfsf");
+/**
+ * @param $arr массив со значениями
+ * @return int|string подсчитывает и возвращает колличество элементов
+ */
+function mysizeof($arr){
+    foreach($arr as $key=>$in){
+         $a=$key;
+
+    }
+    return $a+1;
+
+}
+echo mysizeof($str);

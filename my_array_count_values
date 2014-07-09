@@ -1,0 +1,20 @@
+<?php
+$arr=array("2","2","2","2");
+/**
+ * @param $mas массив со значениями
+ * @return int возвращает сумму значений
+ */
+function my_array_count_values ($mas){
+   $b=0;
+    foreach($mas as $key=>$in){
+        $a=$key;
+    }
+
+    for($i=0;$i<=$a;$i++){
+        $b=$b+$mas[$i];
+    }
+
+    return $b;
+
+}
+echo my_array_count_values($arr);

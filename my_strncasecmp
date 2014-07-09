@@ -1,0 +1,27 @@
+<?php
+
+function my_strncasecmp($str1,$str2,$len){
+    $a=null;
+    $b=null;
+    for($i=0;$i<=$len;$i++){
+
+        $a.=ord($str1[$i]);
+        $b.=ord($str2[$i]);
+
+    }
+        if($a==$b){
+            return 0;
+        }
+        elseif($a<$b){
+            return -1;
+        }
+        elseif($a>$b){
+            return 1;
+        }
+
+}
+ echo my_strncasecmp("ssfd","aswd",1);
+
+//echo ord("a");
+
+

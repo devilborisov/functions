@@ -1,0 +1,20 @@
+<?php
+/**
+ * @param $start начальный индекс массива
+ * @param $num колличество элементов массива
+ * @param $str значение
+ * @return mixed возвращает заполненый массив
+ */
+function my_array_fill ($start,$num,$str){
+    $arr2=array();
+    for($i=0;$i<=$num;$i++){
+        $arr2[$start]=$str;
+        $start++;
+    }
+
+
+   return print_r($arr2);
+}
+echo my_array_fill(2,5,"hedddl");
+
+

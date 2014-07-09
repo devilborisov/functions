@@ -1,0 +1,18 @@
+<?php
+/**
+ * @param $st текст строки
+ * @return int возвращает длинну строки
+ */
+function my_strlen( $st){
+
+    for($i=0;$st[$i];$i++){
+        $num=$i;
+
+
+
+    }
+    
+    return $num;
+}
+
+ echo my_strlen("123456789");
